@@ -46,11 +46,11 @@ function renderModal(projId) {
             <li>Client: ${proj.name}</li>
             <li>Category: ${proj.title}</li>
         </ul>
-        <a class="m-5 text-primary link" href="${proj.url}" target="_blank"> Check It Out</a> </br>
-        <button class="btn btn-primary" data-dismiss="modal" type="button">
+        <a style="color: blue; margin: 5px" href="${proj.url}" target="_blank"> Check It Out</a> </br>
+        <button class="btn btn-primary m-3" data-dismiss="modal" type="button">
         <i class="fa fa-times"></i>
         Close Project</button>`;
-
+ 
   $(".modal-body").html(strHTML);
 }
 

@@ -84,7 +84,7 @@ body {
 .offcanvas-aside {
     position: fixed;
     height: 100%;
-    background: red;
+    background: rgb(233, 204, 40);
     width: 80vw;
     right: -80vw;
     z-index: 10;
@@ -106,11 +106,12 @@ body {
 
 @media (min-width: 575px) {
     .offcanvas-btn-open {
-        margin-right: 30vw;
+        margin-right: 40vw;
     }
     .offcanvas-aside {
-        width: 30vw;
-        right: -30vw;
+        width: 40vw;
+        /* 30 */
+        right: -40vw;
     }
 }
 .offcanvas-aside-open {
@@ -631,7 +632,7 @@ ul.social-buttons li a:hover {
     align-items: center;
 }
 .text-primary {
-    color: #fed136;
+    color: #fed136 !important;
 }
 .btn-primary {
     font-weight: 700;
