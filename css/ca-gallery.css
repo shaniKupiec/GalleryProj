@@ -631,7 +631,7 @@ ul.social-buttons li a:hover {
     align-items: center;
 }
 .text-primary {
-    color: #fed136 !important;
+    color: #fed136;
 }
 .btn-primary {
     font-weight: 700;
