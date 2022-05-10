@@ -14,16 +14,16 @@ function renderProjs() {
     (proj) =>
       `<div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal" onclick="renderModal('${proj.id}')">
-        <div class="portfolio-hover">
+          <div class="portfolio-hover">
             <div class="portfolio-hover-content">
-            <i class="fa fa-plus fa-3x"></i>
+              <i class="fa fa-plus fa-3x"></i>
             </div>
-        </div>
-        <img class="img-fluid" src="${proj.img}" alt="">
+          </div>
+          <img class="img-fluid" src="${proj.img}" alt="">
         </a>
         <div class="portfolio-caption">
         <h4>${proj.name}</h4>
-        <p class="text-muted">${proj.title}</p>
+        <p class="text-muted">${proj.shortDesc}</p>
         </div>
     </div>`
   );
@@ -36,15 +36,13 @@ function renderModal(projId) {
   console.log('projId',projId, 'proj', proj);
   var strHTML = 
       `<h2>'${proj.name}'</h2>
-        <p class="item-intro text-muted">${proj.desc}</p>
+        <p class="item-intro text-muted">${proj.shortDesc}</p>
         <img class="img-fluid d-block mx-auto" src="${proj.img}" alt="">
-        <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis
-        dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-        maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+        <p>${proj.longDesc}</p>
         <ul class="list-inline">
             <li>Date: ${proj.publishedAt}</li>
             <li>Client: ${proj.name}</li>
-            <li>Category: ${proj.title}</li>
+            <li>Category: ${proj.category}</li>
         </ul>
         <a style="color: blue; margin: 5px" href="${proj.url}" target="_blank"> Check It Out</a> </br>
         <button class="btn btn-primary m-3" data-dismiss="modal" type="button">
