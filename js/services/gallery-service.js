@@ -36,7 +36,7 @@ function createProjs() {
       '111',
       'Google App',
       'Vue',
-      'Front-end',
+      'Front-End',
       'App that combines 2 of google apps- google notes and gmail. Google notes- add, edit, remove notes. supports note with: image, video, sound, and list. Email- sending and receiving new mails. supports unreading, moving to trash. More features: allow saving mail as note. and sending a note as a mail',
       'https://github.com/shaniKupiec/Google-App',
       'https://res.cloudinary.com/trellox/image/upload/v1652187056/github-gallery/91375c87-bfd6-4528-a13c-32a9c080de34_ijuylf.jpg'
@@ -45,7 +45,7 @@ function createProjs() {
       '107',
       'Meme Generator',
       'Vanilla',
-      'Front-end',
+      'Front-End',
       'An image maker that lets you add custom resizable text, images, and much more to templates. More features: saving, sharing on Facebook and download',
       'https://github.com/shaniKupiec/Meme-Generator',
       'https://res.cloudinary.com/trellox/image/upload/v1652177071/github-gallery/5954264d-3be6-4c42-abdf-22471e937928_ak3qhl.jpg'
@@ -54,7 +54,7 @@ function createProjs() {
       '106',
       "Shani's Books",
       'Vue',
-      'Front-end',
+      'Front-End',
       'Colorful bookshop that allows the user to watch the book details. The website is combined from reusable components such as: long text, adding and deleting review. More features: filtering, adding new books to the store using external api',
       'https://github.com/shaniKupiec/Shani-s-Books',
       'https://res.cloudinary.com/trellox/image/upload/v1652177075/github-gallery/e34e7c95-f846-4919-8e96-fc2f70913346_aqn0pc.jpg'
