@@ -65,13 +65,14 @@ function renderModal(projId) {
   </ul>
   <a style="color: blue; margin: 5px" href="${project.codeUrl}" target="_blank">Link to code</a> </br>
   ${project.siteUrl ? `<a style="color: blue; margin: 5px" href="${project.siteUrl}" target="_blank">Link to project</a> </br>` : ""}
-  <button class="btn btn-primary m-3" data-dismiss="modal" type="button">
-    <i class="fa fa-times"></i>
-    Close Project
+  <button class="btn btn-primary m-3" onclick="renderModal('${getId(projId, true)}')">
+    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+    next project 
   </button>
-  <div> ${projId} ${getNextId(projId)} </div>
-  <div onclick="renderModal('${getId(projId, true)}')"> next </div>
-  <div onclick="renderModal('${getId(projId, false)}')"> preview </div>
+  <button class="btn btn-primary m-3" onclick="renderModal('${getId(projId, false)}')">
+    previews project 
+    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+  </button>
   <img class="img-fluid d-block mx-auto" src="${project.img}" alt="">`;
 
   $(".modal-body").html(strHTML);
