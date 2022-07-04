@@ -4,7 +4,6 @@ $(document).ready(init);
 const gOwnerEmail = "shani.kupiec@gmail.com";
 
 function init() {
-  console.log("Starting up");
   renderProject();
 }
 
@@ -53,7 +52,6 @@ function getInnerHTML(project) {
 
 function renderModal(projId) {
   var project = getProjectById(projId);
-  console.log("projId", projId, "project", project);
   var strHTML = `
   <h2>'${project.name}'</h2>
   <p class="item-intro text-muted">${project.type}</p>
@@ -79,7 +77,7 @@ function renderModal(projId) {
 }
 
 function getId(currentId, isNext) {
-  return isNext ? (currentId === "113" ? "100" : ++currentId) : currentId === "100" ? "113" : --currentId;
+  return isNext ? (currentId === "115" ? "100" : ++currentId) : currentId === "100" ? "115" : --currentId;
 }
 
 function sendEmail() {
