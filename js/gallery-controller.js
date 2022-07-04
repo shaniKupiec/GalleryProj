@@ -1,70 +1,92 @@
 "use strict";
 
 $(document).ready(init);
-const gOwnerEmail = 'shani.kupiec@gmail.com'
+const gOwnerEmail = "shani.kupiec@gmail.com";
 
 function init() {
   console.log("Starting up");
-  renderProjs();
+  renderProject();
 }
 
-function renderProjs() {
-  var projs = getProjs();
-  var strHTML = projs.map(
-    (proj) =>
-      `<div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal" onclick="renderModal('${proj.id}')">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
-              <i class="fa fa-plus fa-3x"></i>
+function renderProject() {
+  var projects = getProject();
+  var strHTML1 = "";
+  var strHTML2 = "";
+  var strHTML3 = "";
+  projects.map((project) => {
+    const html = getInnerHTML(project);
+    switch (project.type) {
+      case "End-to-End":
+        strHTML1 += html;
+        break;
+      case "Front-End":
+        strHTML2 += html;
+        break;
+      case "Learning project":
+        strHTML3 += html;
+        break;
+      default:
+        break;
+    }
+  });
+  $(".addPortfolioEndToEnd").html(strHTML1);
+  $(".addPortfolioFrontend").html(strHTML2);
+  $(".addPortfolioLearning").html(strHTML3);
+}
+
+function getInnerHTML(project) {
+  return `<div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal" onclick="renderModal('${project.id}')">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="${project.img}" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>${project.name}</h4>
+              <p class="text-muted">${project.category}</p>
             </div>
-          </div>
-          <img class="img-fluid" src="${proj.img}" alt="">
-        </a>
-        <div class="portfolio-caption">
-        <h4>${proj.name}</h4>
-        <p class="text-muted">${proj.shortDesc}</p>
-        </div>
-    </div>`
-  );
-  strHTML = strHTML.join("");
-  $(".addProtfolio").html(strHTML);
+          </div>`;
 }
 
 function renderModal(projId) {
-  var proj = getProjsById(projId);
-  console.log('projId',projId, 'proj', proj);
-  var strHTML = 
-      `<h2>'${proj.name}'</h2>
-        <p class="item-intro text-muted">${proj.shortDesc}</p>
-        <img class="img-fluid d-block mx-auto" src="${proj.img}" alt="">
-        <p>${proj.longDesc}</p>
-        <ul class="list-inline">
-            <li>Date: ${proj.publishedAt}</li>
-            <li>Client: ${proj.name}</li>
-            <li>Category: ${proj.category}</li>
-        </ul>
-        <a style="color: blue; margin: 5px" href="${proj.url}" target="_blank"> Check It Out</a> </br>
-        <button class="btn btn-primary m-3" data-dismiss="modal" type="button">
-        <i class="fa fa-times"></i>
-        Close Project</button>`;
- 
+  var project = getProjectById(projId);
+  console.log("projId", projId, "project", project);
+  var strHTML = `
+  <h2>'${project.name}'</h2>
+  <p class="item-intro text-muted">${project.type}</p>
+  <p>${project.longDesc}</p>
+  <ul class="list-inline">
+    <li>Date: ${project.publishedAt}</li>
+    <li>Client: ${project.name}</li>
+    <li>Technology: ${project.category}</li>
+  </ul>
+  <a style="color: blue; margin: 5px" href="${project.codeUrl}" target="_blank">Link to code</a> </br>
+  ${project.siteUrl ? `<a style="color: blue; margin: 5px" href="${project.siteUrl}" target="_blank">Link to project</a> </br>` : ''}
+  <button class="btn btn-primary m-3" data-dismiss="modal" type="button">
+    <i class="fa fa-times"></i>
+    Close Project
+  </button>
+  <img class="img-fluid d-block mx-auto" src="${project.img}" alt="">`;
+
   $(".modal-body").html(strHTML);
 }
 
-function sendEmail(){
-    var email = $('[name=email]').val()
-    var subject = $('[name=sub]').val()
-    var message = $('[name=msg]').val()
+function sendEmail() {
+  var email = $("[name=email]").val();
+  var subject = $("[name=sub]").val();
+  var message = $("[name=msg]").val();
 
-    $('[name=email]').val('')
-    $('[name=sub]').val('')
-    $('[name=msg]').val('')
+  $("[name=email]").val("");
+  $("[name=sub]").val("");
+  $("[name=msg]").val("");
 
-    if(!email || !subject || !message || !email.match("^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$")) return
-    
-    console.log('email',email, 'subject',subject, 'message', message);
+  if (!email || !subject || !message || !email.match("^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$")) return;
 
-    var url = `https://mail.google.com/mail/?view=cm&fs=1&to=${gOwnerEmail}&su=${subject}&body=${message}`
-    window.open(url);
+  console.log("email", email, "subject", subject, "message", message);
+
+  var url = `https://mail.google.com/mail/?view=cm&fs=1&to=${gOwnerEmail}&su=${subject}&body=${message}`;
+  window.open(url);
 }

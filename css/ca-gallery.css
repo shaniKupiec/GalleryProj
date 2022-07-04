@@ -241,6 +241,16 @@ header.masthead .intro-text .intro-heading {
     text-transform: none;
 }
 
+#portfolio, #me {
+    padding: 100px 0 0 0;
+}
+
+@media (min-width: 768px) {
+    #portfolio, #me {
+        padding: 150px 0 0 0;
+    }
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
