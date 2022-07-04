@@ -6,7 +6,7 @@ createProject();
 function createProject() {
   gProject = [
     createProj(
-      "110",
+      "113",
       "Trellox",
       "Vue",
       "End-to-End",
@@ -26,7 +26,7 @@ function createProject() {
       "https://res.cloudinary.com/trellox/image/upload/v1652177401/github-gallery/2a41ee5f-2d01-4af0-b7db-9a9a0011f80d_qwwwjt.jpg"
     ),
     createProj(
-      "114",
+      "111",
       "Toy App",
       "Vue",
       "End-to-End",
@@ -36,7 +36,7 @@ function createProject() {
       "https://res.cloudinary.com/trellox/image/upload/v1652188790/github-gallery/c076be98-8fa4-4a91-8e56-661493c55a26_ksiovt.jpg"
     ),
     createProj(
-      "111",
+      "110",
       "Google App",
       "Vue",
       "Front-End",
@@ -46,7 +46,7 @@ function createProject() {
       "https://res.cloudinary.com/trellox/image/upload/v1652187056/github-gallery/91375c87-bfd6-4528-a13c-32a9c080de34_ijuylf.jpg"
     ),
     createProj(
-      "107",
+      "109",
       "Meme Generator",
       "Vanilla",
       "Front-End",
@@ -56,7 +56,7 @@ function createProject() {
       "https://res.cloudinary.com/trellox/image/upload/v1652177071/github-gallery/5954264d-3be6-4c42-abdf-22471e937928_ak3qhl.jpg"
     ),
     createProj(
-      "106",
+      "108",
       "Shani's Books",
       "Vue",
       "Front-End",
@@ -66,7 +66,7 @@ function createProject() {
       "https://res.cloudinary.com/trellox/image/upload/v1652177075/github-gallery/e34e7c95-f846-4919-8e96-fc2f70913346_aqn0pc.jpg"
     ),
     createProj(
-      "108",
+      "107",
       "Px Prefect Blogin",
       "Vanilla",
       "Learning project",
@@ -76,7 +76,7 @@ function createProject() {
       "https://res.cloudinary.com/trellox/image/upload/v1652177076/github-gallery/bb99a8ee-1aea-4bef-82be-64ad79325c9a_mysmlz.jpg"
     ),
     createProj(
-      "101",
+      "106",
       "Minesweeper",
       "Vanilla",
       "Learning project",
@@ -86,7 +86,7 @@ function createProject() {
       "https://res.cloudinary.com/trellox/image/upload/v1652177131/github-gallery/1650974170498_anpyp3.jpg"
     ),
     createProj(
-      "104",
+      "105",
       "Pac Man",
       "Vanilla",
       "Learning project",
@@ -96,7 +96,7 @@ function createProject() {
       "https://res.cloudinary.com/trellox/image/upload/v1652177039/github-gallery/847ca411-1a60-4d48-892a-689560a38af6_sajjeq.jpg"
     ),
     createProj(
-      "103",
+      "104",
       "Eat the ball",
       "Vanilla",
       "Learning project",
@@ -106,7 +106,7 @@ function createProject() {
       "https://res.cloudinary.com/trellox/image/upload/v1652177079/github-gallery/fbb51fea-6066-4da3-8566-08135854d137_dtzp0m.jpg"
     ),
     createProj(
-      "113",
+      "103",
       "Guess Who jQuery",
       "jQuery",
       "Learning project",
@@ -126,7 +126,7 @@ function createProject() {
       "https://res.cloudinary.com/trellox/image/upload/v1652177068/github-gallery/9d3faab1-d1a2-44d9-ad60-b3a7a6ee0473_qcxyrn.jpg"
     ),
     createProj(
-      "105",
+      "101",
       "My Todos",
       "Vanilla",
       "Learning project",
@@ -136,7 +136,7 @@ function createProject() {
       "https://res.cloudinary.com/trellox/image/upload/v1652187048/github-gallery/f7511721-72c2-47a0-9cbd-5fc4b5a7772b_t29jim.jpg"
     ),
     createProj(
-      "109",
+      "100",
       "Book Shop",
       "Vanilla",
       "Learning project",

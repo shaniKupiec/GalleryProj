@@ -64,14 +64,21 @@ function renderModal(projId) {
     <li>Technology: ${project.category}</li>
   </ul>
   <a style="color: blue; margin: 5px" href="${project.codeUrl}" target="_blank">Link to code</a> </br>
-  ${project.siteUrl ? `<a style="color: blue; margin: 5px" href="${project.siteUrl}" target="_blank">Link to project</a> </br>` : ''}
+  ${project.siteUrl ? `<a style="color: blue; margin: 5px" href="${project.siteUrl}" target="_blank">Link to project</a> </br>` : ""}
   <button class="btn btn-primary m-3" data-dismiss="modal" type="button">
     <i class="fa fa-times"></i>
     Close Project
   </button>
+  <div> ${projId} ${getNextId(projId)} </div>
+  <div onclick="renderModal('${getId(projId, true)}')"> next </div>
+  <div onclick="renderModal('${getId(projId, false)}')"> preview </div>
   <img class="img-fluid d-block mx-auto" src="${project.img}" alt="">`;
 
   $(".modal-body").html(strHTML);
+}
+
+function getId(currentId, isNext) {
+  return isNext ? (currentId === "113" ? "100" : ++currentId) : currentId === "100" ? "113" : --currentId;
 }
 
 function sendEmail() {
