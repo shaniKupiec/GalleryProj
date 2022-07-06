@@ -58,8 +58,12 @@ function renderModal(projId) {
   <p>${project.longDesc}</p>
   <ul class="list-inline">
     <li>Date: ${project.publishedAt}</li>
-    <li>Client: ${project.name}</li>
-    <li>Technology: ${project.category}</li>
+    <li>Technology: ${project.techs}</li> 
+    <li>
+      <ul>
+      ${project.features.map(f => `<li style="text-align: start">${f}</li>` )}
+      </ul>
+    </li>
   </ul>
   <a style="color: blue; margin: 5px" href="${project.codeUrl}" target="_blank">Link to code</a> </br>
   ${project.siteUrl ? `<a style="color: blue; margin: 5px" href="${project.siteUrl}" target="_blank">Link to project</a> </br>` : ""}
