@@ -61,7 +61,7 @@ function renderModal(projId) {
     <li>Technology: ${project.techs}</li> 
     <li>
       <ul>
-      ${project.features.map(f => `<li style="text-align: start">${f}</li>` )}
+      ${project.features.map((f) => `<li style="text-align: start">${f}</li>`)}
       </ul>
     </li>
   </ul>

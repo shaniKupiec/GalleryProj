@@ -54,19 +54,6 @@ function createProject() {
     ),
     createProj(
       "113",
-      "Toy App",
-      "Vue & Node",
-      "End-to-End",
-      "Advanced Toy Store with Google Maps and Socket.IO",
-      "https://github.com/shaniKupiec/Mister-Toy-Frontend",
-      "",
-      "https://res.cloudinary.com/trellox/image/upload/v1652188790/github-gallery/c076be98-8fa4-4a91-8e56-661493c55a26_ksiovt.jpg",
-      "Mar - 2022",
-      "Vue.js, Vuex, Axios, Element-plus, Socket.io, SCSS, Mongodb, Express, Cors, Bcrypt, REST API",
-      ["Toys CRUD", "Filter", "Sort", "Search", "Dashboard with Charts", "Map with location of stores", "Login, signup and logout", "Chat rooms by topic"]
-    ),
-    createProj(
-      "112",
       "Zone Todo",
       "React & AWS",
       "End-to-End",
@@ -77,6 +64,19 @@ function createProject() {
       "June - 2022",
       "React.js, Redux, Graphql, AWS Services: AppSync, Cognito, Amplify, DynamoDB, SCSS",
       ["Login, register and logout", "Task CRUD", "When where is a city name in a Todo- it displays the weather in that city"]
+    ),
+    createProj(
+      "112",
+      "Toy App",
+      "Vue & Node",
+      "End-to-End",
+      "Advanced Toy Store with Google Maps and Socket.IO",
+      "https://github.com/shaniKupiec/Mister-Toy-Frontend",
+      "",
+      "https://res.cloudinary.com/trellox/image/upload/v1652188790/github-gallery/c076be98-8fa4-4a91-8e56-661493c55a26_ksiovt.jpg",
+      "Mar - 2022",
+      "Vue.js, Vuex, Axios, Element-plus, Socket.io, SCSS, Mongodb, Express, Cors, Bcrypt, REST API",
+      ["Toys CRUD", "Filter", "Sort", "Search", "Dashboard with Charts", "Map with location of stores", "Login, signup and logout", "Chat rooms by topic"]
     ),
     createProj(
       "111",
