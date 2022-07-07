@@ -60,8 +60,9 @@ function renderModal(projId) {
     <li>Date: ${project.publishedAt}</li>
     <li>Technology: ${project.techs}</li> 
     <li>
+    Features:
       <ul>
-      ${project.features.map((f) => `<li style="text-align: start">${f}</li>`)}
+      ${project.features.map((f) => `<li>${f}</li>`).join("")}
       </ul>
     </li>
   </ul>

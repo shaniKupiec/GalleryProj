@@ -40,7 +40,7 @@ function createProject() {
       "https://cryptonites.herokuapp.com/#/",
       "https://res.cloudinary.com/trellox/image/upload/v1652177401/github-gallery/2a41ee5f-2d01-4af0-b7db-9a9a0011f80d_qwwwjt.jpg",
       "Apr - 2022",
-      "Angular typescript, SCSS, Ngx Charts",
+      "Angular Typescript, SCSS, Ngx Charts",
       [
         "Login, register and logout",
         "Current Value of different crypto coins",
@@ -88,7 +88,7 @@ function createProject() {
       "https://shanikupiec.github.io/Google-App/#/note",
       "https://res.cloudinary.com/trellox/image/upload/v1652187056/github-gallery/91375c87-bfd6-4528-a13c-32a9c080de34_ijuylf.jpg",
       "Mar - 2022",
-      "Vue.js, local storage",
+      "Vue.js, Local storage",
       ["Notes CRUD", "Supports note with: image, video, sound, and list", "Supports pining note", "Search notes", "Send a mail", "Supports unread mail and moving to trash", "Allow saving mail as note and sending a note as a mail"]
     ),
     createProj(
@@ -101,7 +101,7 @@ function createProject() {
       "https://shanikupiec.github.io/Meme-Generator/",
       "https://res.cloudinary.com/trellox/image/upload/v1652177071/github-gallery/5954264d-3be6-4c42-abdf-22471e937928_ak3qhl.jpg",
       "Feb - 2022",
-      "javascript, css, HTML, local storage",
+      "Javascript, Css, HTML, Local storage",
       [
         "Filter", 
         "Search", 
@@ -123,7 +123,7 @@ function createProject() {
       "https://shanikupiec.github.io/Shani-s-Books/#/",
       "https://res.cloudinary.com/trellox/image/upload/v1652177075/github-gallery/e34e7c95-f846-4919-8e96-fc2f70913346_aqn0pc.jpg",
       "Feb - 2022",
-      "Vue.js, local storage",
+      "Vue.js, Local storage",
       ["Using reusable components such as long text", "Filter", "Search", "Books CRUD", "Adding new books to the store using external api", "User message after adding and removing reviews"]
     ),
     createProj(
@@ -136,7 +136,7 @@ function createProject() {
       "",
       "https://res.cloudinary.com/trellox/image/upload/v1656946328/github-gallery/Presentation1_s16ulr.jpg",
       "June - 2022",
-      "React typescript, SCSS, Axios, Chart.js, HTML",
+      "React Typescript, SCSS, Axios, Chart.js, HTML",
       ["Show result of last search in the new name page", "Showing history of all names searched in the past", "Option to clear the history list"]
     ),
     createProj(
@@ -149,7 +149,7 @@ function createProject() {
       "https://shanikupiec.github.io/px-prefect-Blogin/",
       "https://res.cloudinary.com/trellox/image/upload/v1652177076/github-gallery/bb99a8ee-1aea-4bef-82be-64ad79325c9a_mysmlz.jpg",
       "Feb - 2022",
-      "javascript, css, HTML",
+      "Javascript, Css, HTML",
       ["Includes hover effects"]
     ),
     createProj(
@@ -162,7 +162,7 @@ function createProject() {
       "https://shanikupiec.github.io/Minesweeper/",
       "https://res.cloudinary.com/trellox/image/upload/v1652177131/github-gallery/1650974170498_anpyp3.jpg",
       "Jan - 2022",
-      "javascript, css, HTML, local storage",
+      "Javascript, Css, HTML, Local storage",
       [
         "Allows to choose size of board",
         "Lives",
@@ -182,7 +182,7 @@ function createProject() {
       "https://shanikupiec.github.io/pac-man/",
       "https://res.cloudinary.com/trellox/image/upload/v1652177039/github-gallery/847ca411-1a60-4d48-892a-689560a38af6_sajjeq.jpg",
       "Jan - 2022",
-      "javascript, css, HTML",
+      "Javascript, Css, HTML",
       ["Sound", "Restart option and the end of the game", "Live count of coins that were collected", "Moving ghosts", "Super mood- the player can temporarily eat the ghosts"]
     ),
     createProj(
@@ -195,7 +195,7 @@ function createProject() {
       "https://shanikupiec.github.io/eat-the-ball/",
       "https://res.cloudinary.com/trellox/image/upload/v1652177079/github-gallery/fbb51fea-6066-4da3-8566-08135854d137_dtzp0m.jpg",
       "Jan - 2022",
-      "javascript, css, HTML",
+      "Javascript, Css, HTML",
       [
         "Adding new ball in a random free place every 2 seconds",
         "Sticky mushrooms that unable the users movement for 3 seconds",
@@ -214,7 +214,7 @@ function createProject() {
       "https://shanikupiec.github.io/guess-who-jQuery/",
       "https://res.cloudinary.com/trellox/image/upload/v1652187051/github-gallery/a03e93fd-cbd8-4841-b09e-6aa8f29eac39_bd4h0n.jpg",
       "Feb - 2022",
-      "jQuery, javascript, css, HTML, local storage",
+      "jQuery, Javascript, Css, HTML, Local storage",
       ["Allows adding data to the tree when the application couldn't guess the user's character"]
     ),
     createProj(
@@ -227,7 +227,7 @@ function createProject() {
       "https://shanikupiec.github.io/chess-board/",
       "https://res.cloudinary.com/trellox/image/upload/v1652177068/github-gallery/9d3faab1-d1a2-44d9-ad60-b3a7a6ee0473_qcxyrn.jpg",
       "Jan - 2022",
-      "javascript, css, HTML",
+      "Javascript, Css, HTML",
       ["Allows restart game"]
     ),
     createProj(
@@ -240,7 +240,7 @@ function createProject() {
       "https://shanikupiec.github.io/my-todos/",
       "https://res.cloudinary.com/trellox/image/upload/v1652187048/github-gallery/f7511721-72c2-47a0-9cbd-5fc4b5a7772b_t29jim.jpg",
       "Jan - 2022",
-      "javascript, css, HTML, local storage",
+      "Javascript, Css, HTML, Local storage",
       ["Todos CRUD", "Filtering", "Sorting", "Calculate active todos"]
     ),
     createProj(
@@ -253,7 +253,7 @@ function createProject() {
       "https://shanikupiec.github.io/book-shop/",
       "https://res.cloudinary.com/trellox/image/upload/v1652177073/github-gallery/13189420-50fd-4824-9737-240cbd7fce8c_eeoy5b.jpg",
       "Feb - 2022",
-      "javascript, css, HTML, local storage",
+      "Javascript, Css, HTML, Local storage",
       ["Books CRUD", "Paging", "I18n"]
     ),
   ];
