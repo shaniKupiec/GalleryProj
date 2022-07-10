@@ -32,7 +32,7 @@ function createProject() {
     ),
     createProj(
       "114",
-      "Cyptonites",
+      "Cyptonites -project in process",
       "Angular & Node",
       "End-to-End",
       "An app that allows transfer of crypto coins to users. Using Node.js, Angular, and TypeScript",
