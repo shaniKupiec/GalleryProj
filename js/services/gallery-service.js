@@ -6,7 +6,7 @@ createProject();
 function createProject() {
   gProject = [
     createProj(
-      "115",
+      "113",
       "Trellox",
       "Vue & Node",
       "End-to-End",
@@ -31,7 +31,7 @@ function createProject() {
       ]
     ),
     createProj(
-      "114",
+      "112",
       "Cyptonites -project in process",
       "Angular & Node",
       "End-to-End",
@@ -53,7 +53,7 @@ function createProject() {
       ]
     ),
     createProj(
-      "113",
+      "111",
       "Zone Todo",
       "React & AWS",
       "End-to-End",
@@ -66,7 +66,7 @@ function createProject() {
       ["Login, register and logout", "Task CRUD", "When where is a city name in a Todo- it displays the weather in that city"]
     ),
     createProj(
-      "112",
+      "110",
       "Toy App",
       "Vue & Node",
       "End-to-End",
@@ -79,7 +79,7 @@ function createProject() {
       ["Toys CRUD", "Filter", "Sort", "Search", "Dashboard with Charts", "Map with location of stores", "Login, signup and logout", "Chat rooms by topic"]
     ),
     createProj(
-      "111",
+      "109",
       "Google App",
       "Vue",
       "Front-End",
@@ -92,7 +92,7 @@ function createProject() {
       ["Notes CRUD", "Supports note with: image, video, sound, and list", "Supports pining note", "Search notes", "Send a mail", "Supports unread mail and moving to trash", "Allow saving mail as note and sending a note as a mail"]
     ),
     createProj(
-      "110",
+      "108",
       "Meme Generator",
       "Vanilla",
       "Front-End",
@@ -114,7 +114,7 @@ function createProject() {
       ]
     ),
     createProj(
-      "109",
+      "107",
       "Shani's Books",
       "Vue",
       "Front-End",
@@ -127,7 +127,7 @@ function createProject() {
       ["Using reusable components such as long text", "Filter", "Search", "Books CRUD", "Adding new books to the store using external api", "User message after adding and removing reviews"]
     ),
     createProj(
-      "108",
+      "106",
       "Name App",
       "React ts & Node",
       "Learning project",
@@ -139,21 +139,21 @@ function createProject() {
       "React Typescript, SCSS, Axios, Chart.js, HTML",
       ["Show result of last search in the new name page", "Showing history of all names searched in the past", "Option to clear the history list"]
     ),
+    // createProj(
+    //   "107",
+    //   "Px Prefect Blogin",
+    //   "Vanilla",
+    //   "Learning project",
+    //   "design to live page",
+    //   "https://github.com/shaniKupiec/px-prefect-Blogin",
+    //   "https://shanikupiec.github.io/px-prefect-Blogin/",
+    //   "https://res.cloudinary.com/trellox/image/upload/v1652177076/github-gallery/bb99a8ee-1aea-4bef-82be-64ad79325c9a_mysmlz.jpg",
+    //   "Feb - 2022",
+    //   "Javascript, Css, HTML",
+    //   ["Includes hover effects"]
+    // ),
     createProj(
-      "107",
-      "Px Prefect Blogin",
-      "Vanilla",
-      "Learning project",
-      "design to live page",
-      "https://github.com/shaniKupiec/px-prefect-Blogin",
-      "https://shanikupiec.github.io/px-prefect-Blogin/",
-      "https://res.cloudinary.com/trellox/image/upload/v1652177076/github-gallery/bb99a8ee-1aea-4bef-82be-64ad79325c9a_mysmlz.jpg",
-      "Feb - 2022",
-      "Javascript, Css, HTML",
-      ["Includes hover effects"]
-    ),
-    createProj(
-      "106",
+      "105",
       "Minesweeper",
       "Vanilla",
       "Learning project",
@@ -173,7 +173,7 @@ function createProject() {
       ]
     ),
     createProj(
-      "105",
+      "104",
       "Pac Man",
       "Vanilla",
       "Learning project",
@@ -186,7 +186,7 @@ function createProject() {
       ["Sound", "Restart option and the end of the game", "Live count of coins that were collected", "Moving ghosts", "Super mood- the player can temporarily eat the ghosts"]
     ),
     createProj(
-      "104",
+      "103",
       "Eat the ball",
       "Vanilla",
       "Learning project",
@@ -205,7 +205,7 @@ function createProject() {
       ]
     ),
     createProj(
-      "103",
+      "102",
       "Guess Who jQuery",
       "jQuery",
       "Learning project",
@@ -218,7 +218,7 @@ function createProject() {
       ["Allows adding data to the tree when the application couldn't guess the user's character"]
     ),
     createProj(
-      "102",
+      "101",
       "Chess Board",
       "Vanilla",
       "Learning project",
@@ -230,19 +230,19 @@ function createProject() {
       "Javascript, Css, HTML",
       ["Allows restart game"]
     ),
-    createProj(
-      "101",
-      "My Todos",
-      "Vanilla",
-      "Learning project",
-      "Application for tasks management",
-      "https://github.com/shaniKupiec/my-todos",
-      "https://shanikupiec.github.io/my-todos/",
-      "https://res.cloudinary.com/trellox/image/upload/v1652187048/github-gallery/f7511721-72c2-47a0-9cbd-5fc4b5a7772b_t29jim.jpg",
-      "Jan - 2022",
-      "Javascript, Css, HTML, Local storage",
-      ["Todos CRUD", "Filtering", "Sorting", "Calculate active todos"]
-    ),
+    // createProj(
+    //   "101",
+    //   "My Todos",
+    //   "Vanilla",
+    //   "Learning project",
+    //   "Application for tasks management",
+    //   "https://github.com/shaniKupiec/my-todos",
+    //   "https://shanikupiec.github.io/my-todos/",
+    //   "https://res.cloudinary.com/trellox/image/upload/v1652187048/github-gallery/f7511721-72c2-47a0-9cbd-5fc4b5a7772b_t29jim.jpg",
+    //   "Jan - 2022",
+    //   "Javascript, Css, HTML, Local storage",
+    //   ["Todos CRUD", "Filtering", "Sorting", "Calculate active todos"]
+    // ),
     createProj(
       "100",
       "Book Shop",
