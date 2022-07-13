@@ -56,6 +56,8 @@ function renderModal(projId) {
   <h2>'${project.name}'</h2>
   <p class="item-intro text-muted">${project.type}</p>
   <p>${project.longDesc}</p>
+  <a style="color: blue; margin: 5px" href="${project.codeUrl}" target="_blank">Link to Code</a> </br>
+  ${project.siteUrl ? `<a style="color: blue; margin: 5px" href="${project.siteUrl}" target="_blank">Link to Application</a> </br>` : ""}
   <ul class="list-inline">
     <li>Date: ${project.publishedAt}</li>
     <li>Technology: ${project.techs}</li> 
@@ -66,8 +68,6 @@ function renderModal(projId) {
       </ul>
     </li>
   </ul>
-  <a style="color: blue; margin: 5px" href="${project.codeUrl}" target="_blank">Link to code</a> </br>
-  ${project.siteUrl ? `<a style="color: blue; margin: 5px" href="${project.siteUrl}" target="_blank">Link to project</a> </br>` : ""}
   <button class="btn btn-primary m-3" onclick="renderModal('${getId(projId, true)}')">
     <i class="fa fa-arrow-left" aria-hidden="true"></i>
     next project 
