@@ -62,7 +62,7 @@ function createProject() {
       "",
       "https://res.cloudinary.com/trellox/image/upload/v1657785930/github%20-%20readme/task_luba5j.jpg",
       "June - 2022",
-      "React.js, Redux, Graphql, AWS Services: AppSync, Cognito, Amplify, DynamoDB, SCSS",
+      "React.js, React hooks, Redux, Graphql, AWS Services: AppSync, Cognito, Amplify, DynamoDB, SCSS",
       ["Login, register and logout", "Task CRUD", "When where is a city name in a Todo- it displays the weather in that city"]
     ),
     createProj(
@@ -119,7 +119,7 @@ function createProject() {
     ),
     createProj(
       "104",
-      "Name App",
+      "Cool Names",
       "React ts & Node",
       "Learning project",
       "Allows getting data(probability, count and gender) about name",
@@ -127,7 +127,7 @@ function createProject() {
       "",
       "https://res.cloudinary.com/trellox/image/upload/v1657785930/github%20-%20readme/names_a5mjzd.jpg",
       "June - 2022",
-      "React Typescript, SCSS, Axios, Chart.js, HTML",
+      "React Typescript, React hooks, SCSS, Axios, Chart.js, HTML",
       ["Show result of last search in the new name page", "Showing history of all names searched in the past", "Option to clear the history list"]
     ),
     // createProj(
