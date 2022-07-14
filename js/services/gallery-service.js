@@ -94,7 +94,7 @@ function createProject() {
     createProj(
       "106",
       "Meme Generator",
-      "Vanilla",
+      "Vanilla Js",
       "Front-End",
       "An image maker that lets you add custom resizable text, images, and much more",
       "https://github.com/shaniKupiec/Meme-Generator",
@@ -133,7 +133,7 @@ function createProject() {
     // createProj(
     //   "107",
     //   "Px Prefect Blogin",
-    //   "Vanilla",
+    //   "Vanilla Js",
     //   "Learning project",
     //   "design to live page",
     //   "https://github.com/shaniKupiec/px-prefect-Blogin",
@@ -146,7 +146,7 @@ function createProject() {
     createProj(
       "103",
       "Minesweeper",
-      "Vanilla",
+      "Vanilla Js",
       "Learning project",
       'A single-player puzzle the goal is to clear a rectangular board containing hidden "mines" or bombs without detonating any of them',
       "https://github.com/shaniKupiec/Minesweeper/",
@@ -166,7 +166,7 @@ function createProject() {
     createProj(
       "102",
       "Pac Man",
-      "Vanilla",
+      "Vanilla Js",
       "Learning project",
       "The player controls a character through an enclosed maze, trying to collect all coins without the ghosts(shaped like '@') killing it",
       "https://github.com/shaniKupiec/pac-man",
@@ -179,7 +179,7 @@ function createProject() {
     createProj(
       "101",
       "Eat the ball",
-      "Vanilla",
+      "Vanilla Js",
       "Learning project",
       "The player controls a character through a board. To win the game the player needs to eat all the balls in the board",
       "https://github.com/shaniKupiec/eat-the-ball",
@@ -211,7 +211,7 @@ function createProject() {
     // createProj(
     //   "101",
     //   "Chess Board",
-    //   "Vanilla",
+    //   "Vanilla Js",
     //   "Learning project",
     //   "A chess board that show possible movement for each piece",
     //   "https://github.com/shaniKupiec/chess-board",
@@ -224,7 +224,7 @@ function createProject() {
     // createProj(
     //   "101",
     //   "My Todos",
-    //   "Vanilla",
+    //   "Vanilla Js",
     //   "Learning project",
     //   "Application for tasks management",
     //   "https://github.com/shaniKupiec/my-todos",
@@ -237,7 +237,7 @@ function createProject() {
     createProj(
       "100",
       "Book Shop",
-      "Vanilla",
+      "Vanilla Js",
       "Learning project",
       "Book Shop that allows the user to read, create, edit and delete books",
       "https://github.com/shaniKupiec/book-shop",
