@@ -58,6 +58,14 @@ function renderModal(projId) {
   <p>${project.longDesc}</p>
   <a style="color: blue; margin: 5px" href="${project.codeUrl}" target="_blank">Link to Code</a> </br>
   ${project.siteUrl ? `<a style="color: blue; margin: 5px" href="${project.siteUrl}" target="_blank">Link to Application</a> </br>` : ""}
+  <button class="btn btn-primary m-3" onclick="renderModal('${getId(projId, true)}')">
+    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+    next project 
+  </button>
+  <button class="btn btn-primary m-3" onclick="renderModal('${getId(projId, false)}')">
+    previews project 
+    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+  </button>
   <ul class="list-inline">
     <li>Date: ${project.publishedAt}</li>
     <li>Technology: ${project.techs}</li> 
@@ -68,14 +76,6 @@ function renderModal(projId) {
       </ul>
     </li>
   </ul>
-  <button class="btn btn-primary m-3" onclick="renderModal('${getId(projId, true)}')">
-    <i class="fa fa-arrow-left" aria-hidden="true"></i>
-    next project 
-  </button>
-  <button class="btn btn-primary m-3" onclick="renderModal('${getId(projId, false)}')">
-    previews project 
-    <i class="fa fa-arrow-right" aria-hidden="true"></i>
-  </button>
   <img class="img-fluid d-block mx-auto" src="${project.img}" alt="">`;
 
   $(".modal-body").html(strHTML);
