@@ -93,6 +93,27 @@ function createProject() {
     ),
     createProj(
       "106",
+      "Cryptbits",
+      "React",
+      "Front-End",
+      "With Cryptobits, you can transfer crypto coins. Using Cryptobits, you can send and receive cryptocurrency. Additionally, you can view how the value of different crypto coins has changed over time in addition to real-time value information",
+      "https://github.com/shaniKupiec/Cryptbits-React",
+      "https://shanikupiec.github.io/Cryptbits-React/",
+      "https://res.cloudinary.com/trellox/image/upload/v1672668897/github%20-%20readme/Cryptobits2_mrkblq.png",
+      "Mar - 2022",
+      "React, React Router Dom, Redux & Redux Thunk, Axios, Chart.js, SASS, Local Storage",
+      [
+        "Contact CRUDL (create, read, update, delete, list)",
+        "Filter contact",
+        "A graph that displays the market value of 10 different crypto coins for 5 different periods of time",
+        "Enables you to send crypto to your (fake) contacts",
+        "Profit and loss analysis based on time and cryptocurrency",
+        "Caching the data recives from API",
+        "Developed using Figma's community designs",
+      ]
+    ),
+    createProj(
+      "105",
       "Meme Generator",
       "Vanilla Js",
       "Front-End",
@@ -105,7 +126,7 @@ function createProject() {
       ["Filter", "Search", "Generate random meme", "Meme CRUD", "Edit meme: font, font size, font color, outline color, drag and drop, font location and stickers", "Saving meme in local storage", "Sharing meme on Facebook", "Download meme"]
     ),
     createProj(
-      "105",
+      "104",
       "Shani's Books",
       "Vue",
       "Front-End",
@@ -118,7 +139,7 @@ function createProject() {
       ["Using reusable components such as long text", "Filter", "Search", "Books CRUD", "Adding new books to the store using external api", "User message after adding and removing reviews"]
     ),
     createProj(
-      "104",
+      "103",
       "Cool Names",
       "React ts & Node",
       "Learning project",
@@ -144,7 +165,7 @@ function createProject() {
     //   ["Includes hover effects"]
     // ),
     createProj(
-      "103",
+      "102",
       "Minesweeper",
       "Vanilla Js",
       "Learning project",
@@ -164,7 +185,7 @@ function createProject() {
       ]
     ),
     createProj(
-      "102",
+      "101",
       "Pac Man",
       "Vanilla Js",
       "Learning project",
@@ -177,7 +198,7 @@ function createProject() {
       ["Sound", "Restart option and the end of the game", "Live count of coins that were collected", "Moving ghosts", "Super mood- the player can temporarily eat the ghosts"]
     ),
     createProj(
-      "101",
+      "100",
       "Eat the ball",
       "Vanilla Js",
       "Learning project",
@@ -235,7 +256,7 @@ function createProject() {
     //   ["Todos CRUD", "Filtering", "Sorting", "Calculate active todos"]
     // ),
     createProj(
-      "100",
+      "99",
       "Book Shop",
       "Vanilla Js",
       "Learning project",
