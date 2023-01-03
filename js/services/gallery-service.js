@@ -100,7 +100,7 @@ function createProject() {
       "https://github.com/shaniKupiec/Cryptbits-React",
       "https://shanikupiec.github.io/Cryptbits-React/",
       "https://res.cloudinary.com/trellox/image/upload/v1672668897/github%20-%20readme/Cryptobits2_mrkblq.png",
-      "Mar - 2022",
+      "Jan - 2023",
       "React, React Router Dom, Redux & Redux Thunk, Axios, Chart.js, SASS, Local Storage",
       [
         "Contact CRUDL (create, read, update, delete, list)",
